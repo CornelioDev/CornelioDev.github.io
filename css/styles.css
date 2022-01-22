@@ -32,7 +32,7 @@ h2 {
 }
 
 .card h2 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .card #avatar {
@@ -45,4 +45,12 @@ h2 {
   position: relative;
   top: -50px;
   margin-bottom: -50px;
+}
+
+.card #personal-info {
+  padding: 0 10px;
+}
+
+.card #personal-info p {
+  text-align: center;
 }
