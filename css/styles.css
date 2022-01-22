@@ -35,6 +35,11 @@ h2 {
     font-size: 1.2em;
 }
 
+.card h3 {
+  line-height: 0.5em;
+  font-weight: lighter;
+}
+
 .card #avatar {
   width: 100px;
   height: 100px;
@@ -53,4 +58,16 @@ h2 {
 
 .card #personal-info p {
   text-align: center;
+}
+
+.card #personal-info #skills {
+  margin-top: 30px;
+}
+
+.card #personal-info table {
+  margin: 0 auto;
+}
+
+.card #personal-info table .progress {
+  padding: 0 10px;
 }
