@@ -17,7 +17,13 @@ section {
   padding-bottom: 20px;
 }
 
-.card img {
+.card #header-image {
+  margin: 0;
+  height: 130px;
+  overflow: hidden;
+}
+
+.card #header-image img {
   width: 100%;
 }
 
@@ -51,6 +57,10 @@ h2 {
   position: relative;
   top: -50px;
   margin-bottom: -50px;
+}
+
+.card #avatar img {
+  width: 100%;
 }
 
 .card #personal-info {
