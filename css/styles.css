@@ -82,3 +82,23 @@ h2 {
 .card #personal-info table .progress {
   padding: 0 10px;
 }
+
+.card #contact {
+  padding: 0 10px;
+}
+
+.card #contact #contact-menu {
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.card #contact-menu a {
+  background: #0c0c0c;
+  color:rgb(244, 242, 242);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 9%;
+}
