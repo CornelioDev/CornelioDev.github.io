@@ -84,6 +84,11 @@ h2 {
   padding: 0 10px;
 }
 
+.card #personal-info .experience {
+  display: block;
+  margin-bottom: 25px;
+}
+
 .card #personal-info .experience h4 {
   margin:0.5em 0;
 }
