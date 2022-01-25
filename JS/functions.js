@@ -50,6 +50,11 @@ var skills = [
     }
 ];
 
+
+
+
+
+
 //User information output
 document.getElementById("user_name").innerHTML = `${user_bio.name} ${user_bio.last_name}`;
 document.getElementById("professional_title").innerHTML = user_bio.professional_title;
@@ -72,3 +77,5 @@ skills.forEach(skill => document.getElementById("skills_list").innerHTML += `
     </tr>
 `);
 
+// Site Title
+document.getElementById("site_title").innerHTML = `${user_bio.name} ${user_bio.last_name} | ${user_bio.professional_title}`;
