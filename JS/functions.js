@@ -52,7 +52,7 @@ var skills = [
 
 jobs.forEach(job => document.getElementById("experience").innerHTML += 
     `<span class="experience">
-        <h4>${job.title} <span>(${job.monts} meses)</span></h4>
+        <h4>${job.title} <span>(${job.monts} months)</span></h4>
         <p>${job.description}</p>
     </span>`
 );
