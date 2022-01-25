@@ -1,3 +1,13 @@
+var user_bio = {
+    name: "José Manuel",
+    last_name: "Cornelio",
+    professional_title: "Web Developer",
+    about: "More than 6 years of experience creating amazing websites and web apps as freelancer and employee of great agencies and organizations, even the government.",
+    birth_date: "08-19-1993",
+    city: "Santo Domingo",
+    country: "Dominican Republic"
+};
+
 var jobs = [
     {
         title: 'Best Choice LLC',
@@ -38,17 +48,12 @@ var skills = [
         title: 'PHP',
         level: 6
     }
-]
+];
 
-
-// var user_bio = [
-//     {
-//         about: "Web Developer with more than 6 years of experience creating amazing websites and web apps as freelancer and employee of great agencies and organizations, even the government."
-//     },
-// ];
-
-// user_bio.forEach(user => document.getElementsByClassName("about").innerHTML += `${user.about}`);
-
+//User information output
+document.getElementById("user_name").innerHTML = `${user_bio.name} ${user_bio.last_name}`;
+document.getElementById("professional_title").innerHTML = user_bio.professional_title;
+document.getElementById("about").innerHTML = user_bio.about;
 
 jobs.forEach(job => document.getElementById("experience").innerHTML += 
     `<span class="experience">
