@@ -10,7 +10,7 @@
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
-    <section>
+    <section id="container">
         <div class="card">
             <figure id="header-image">
                 <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1506&q=80"
@@ -29,44 +29,15 @@
                 <div id="skills">
                     <h3>Conocimientos</h3>
                     <hr>
-                    <table>
-                        <tr>
-                            <td class="skill">HTML</td>
-                            <td class="progress">
-                                <progress max="10" value="8"></progress>
-                            </td>
-                            <td class="progress_text">8/10</td>
-                        </tr>
-                        <tr>
-                            <td class="skill">CSS</td>
-                            <td class="progress">
-                                <progress max="10" value="7"></progress>
-                            </td>
-                            <td class="progress_text">7/10</td>
-                        </tr>
-                        <tr>
-                            <td class="skill">JavaScript</td>
-                            <td class="progress">
-                                <progress max="10" value="8"></progress>
-                            </td>
-                            <td class="progress_text">8/10</td>
-                        </tr>
+                    <table id="skills_list">
+                        <!--Here de list of skills-->
                     </table>
                 </div>
                 <hr>
                 <h3>Experiencia</h3>
-                <span class="experience">
-                    <h4>Cornelio-Multitech S.R.L <span>(2019-Presente)</span></h4>
-                    <p>Co-Fundador, Gerente, Desarrollador</p>
-                </span>
-                <span class="experience">
-                    <h4>DIGEPEP<span> (2017-2019)</span></h4>
-                    <p>Desarrollador Front-End</p>
-                </span>
-                <span class="experience">
-                    <h4>Grupo ACD Media <span>(2016-2017)</span></h4>
-                    <p>Desarrollador Web, Web Master, Presentador en EN Noticias</p>
-                </span>
+               <section id="experience">
+                    <!--Here the Job Experience List-->
+               </section>
             </article>
             <div id="contact">
                 <h3>Contáctame por: </h3>
@@ -79,5 +50,6 @@
             </div>
         </div>
     </section>
+    <script src="JS/functions.js"></script>
 </body>
 </html>
