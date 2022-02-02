@@ -123,3 +123,8 @@ h2 {
   padding: 10px;
   border-radius: 9%;
 }
+
+.copy {
+  text-align: center;
+  margin: 20px 0;
+}
