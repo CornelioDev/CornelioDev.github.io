@@ -30,9 +30,9 @@ var jobs = [
         description: 'WordPress Developer, Front-End Developer and Web Master'
     },
     {
-        title: 'DIGEPEP',
-        monts: 'Now',
-        description: 'WordPress Developer, Front-End Developer and Web Master'
+        title: 'ProV International',
+        monts: 6,
+        description: 'Salesforce Consultant (On Training)'
     }
 ]
 
