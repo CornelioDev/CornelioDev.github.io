@@ -28,6 +28,11 @@ var jobs = [
         title: 'DIGEPEP',
         monts: 16,
         description: 'WordPress Developer, Front-End Developer and Web Master'
+    },
+    {
+        title: 'DIGEPEP',
+        monts: 'Now',
+        description: 'WordPress Developer, Front-End Developer and Web Master'
     }
 ]
 
